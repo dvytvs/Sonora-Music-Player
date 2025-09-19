@@ -1,0 +1,14 @@
+<schemalist gettext-domain="gedit">
+  <schema id="org.gnome.gedit.plugins.spell" path="/org/gnome/gedit/plugins/spell/">
+    <key name="highlight-misspelled-words" type="b">
+      <default>false</default>
+      <summary>Highlight Misspelled Words</summary>
+      <description>Whether misspelled words are highlighted by default.</description>
+    </key>
+    <key name="spell-checking-language" type="s">
+      <default>''</default>
+      <summary>Spell-Checking Language</summary>
+      <description>The default language used for the spell-checking. Set to the empty string to take the best language available based on the environment.</description>
+    </key>
+  </schema>
+</schemalist>
